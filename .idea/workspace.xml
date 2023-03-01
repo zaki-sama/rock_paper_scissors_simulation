@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c19d8be-25dd-4d67-baa0-be7560f0dde7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Paper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scissors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RunSimulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Paper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Scissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scissors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simulation.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Volumes/GoogleDrive/My Drive/Portfolio/CS Portfolio/RockPaperScissors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/GoogleDrive/My Drive/Portfolio/CS Portfolio/RockPaperScissors&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +53,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677274017621</updated>
-      <workItem from="1677274174729" duration="2871000" />
+      <workItem from="1677274174729" duration="7701000" />
+      <workItem from="1677622126557" duration="4017000" />
     </task>
     <servers />
   </component>

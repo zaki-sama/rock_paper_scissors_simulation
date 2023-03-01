@@ -1,6 +1,11 @@
 public class Paper extends GameObject{
 
   Paper() {
-    super(ObjectType.Paper, ObjectType.Rock, ObjectType.Scissors);
+    super(ObjectType.Rock, ObjectType.Scissors);
+  }
+
+  @Override
+  public ObjectType getType() {
+    return ObjectType.Paper;
   }
 }
