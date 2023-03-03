@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c19d8be-25dd-4d67-baa0-be7560f0dde7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RunSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scissor.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rock_paper_scissors_simulation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rock_paper_scissors_simulation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Paper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scissors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Simulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Paper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunSimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Scissors.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +36,46 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MCaSXMksStL9HofHisEZ8BsHo2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/GoogleDrive/My Drive/Portfolio/CS Portfolio/RockPaperScissors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Volumes/GoogleDrive/My Drive/Portfolio/CS Portfolio/RockPaperScissors",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RunSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunSimulation" />
+      <module name="rock_paper_scissors_simulation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunSimulation" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677274017621</updated>
       <workItem from="1677274174729" duration="7701000" />
-      <workItem from="1677622126557" duration="4017000" />
+      <workItem from="1677622126557" duration="7443000" />
+      <workItem from="1677802287426" duration="4585000" />
     </task>
     <servers />
   </component>
@@ -71,5 +103,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
