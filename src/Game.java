@@ -5,6 +5,7 @@ import javalib.worldimages.*;
 
 public class Game extends World {
   private GameObject[] objects;
+  //private int time;
 
   public Game(int num) {
     if(!(num % 3 == 0)) {
@@ -12,6 +13,7 @@ public class Game extends World {
     }
     //generateNRandomObjects(num);
     generateObjects(num);
+    //this.time = 0;
   }
 
   private void generateObjects(int num) {
@@ -85,6 +87,7 @@ public class Game extends World {
     if(!this.gameOver()) {
       this.moveObjects();
       this.checkObjects();
+      //this.time ++;
     }
     else {
       this.endOfWorld("Winner: " + objects[0].getType());

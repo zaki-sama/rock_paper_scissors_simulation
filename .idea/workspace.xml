@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c19d8be-25dd-4d67-baa0-be7560f0dde7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scissor.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rock_paper_scissors_simulation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rock_paper_scissors_simulation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Paper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunSimulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scissors.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Volumes/GoogleDrive/My Drive/Portfolio/CS Portfolio/RockPaperScissors",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/GoogleDrive/My Drive/Portfolio/CS Portfolio/RockPaperScissors&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -86,7 +76,8 @@
       <updated>1677274017621</updated>
       <workItem from="1677274174729" duration="7701000" />
       <workItem from="1677622126557" duration="7443000" />
-      <workItem from="1677802287426" duration="4585000" />
+      <workItem from="1677802287426" duration="5791000" />
+      <workItem from="1677870139217" duration="2771000" />
     </task>
     <servers />
   </component>
