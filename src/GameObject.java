@@ -1,4 +1,3 @@
-import java.awt.*;
 import java.util.*;
 
 import javalib.worldimages.*;
@@ -22,26 +21,21 @@ public class GameObject {
     this.x = new Random().nextInt(GameConstants.GAME_SIZE);
     this.y = new Random().nextInt(GameConstants.GAME_SIZE);
 
-    int moveBy = 5;
+    int moveBy = 2;
     this.xMove = -moveBy + (moveBy - (-moveBy)) * new Random().nextDouble();
     this.yMove = -moveBy + (moveBy - (-moveBy)) * new Random().nextDouble();
   }
 
   //public methods
   public WorldImage draw() {
-    String text = "";
+    String img = "scissors.png";
     if(this.type == ObjectType.Rock) {
-      text = "R";
+      img = "rock.png";
     }
     if(this.type == ObjectType.Paper) {
-      text = "P";
+      img = "paper.png";
     }
-    if(this.type == ObjectType.Scissors) {
-      text = "S";
-    }
-    WorldImage img = new FromFileImage("paper.png");
-    return new TextImage(text, 20.0, Color.BLACK);
-
+    return new FromFileImage(img);
   }
 
   public int getX() {
@@ -52,18 +46,9 @@ public class GameObject {
     return (int) this.y;
   }
 
-  private int assignRandom() {
-    if(new Random().nextInt(1) == 0) {
-      return 5;
-    } else {
-      return -5;
-    }
-  }
-
   public void check(GameObject[] objects) {
-    for(int i = 0; i < objects.length; i++) {
-      GameObject otherObj = objects[i];
-      if(this.touching(otherObj) && this.beatBy(otherObj)) {
+    for (GameObject otherObj : objects) {
+      if (this.touching(otherObj) && this.beatBy(otherObj)) {
         this.updateTo(otherObj.type);
       }
     }
