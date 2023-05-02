@@ -21,7 +21,7 @@ public class GameObject {
     this.x = new Random().nextInt(GameConstants.GAME_SIZE);
     this.y = new Random().nextInt(GameConstants.GAME_SIZE);
 
-    int moveBy = 2;
+    int moveBy = 4;
     this.xMove = -moveBy + (moveBy - (-moveBy)) * new Random().nextDouble();
     this.yMove = -moveBy + (moveBy - (-moveBy)) * new Random().nextDouble();
   }

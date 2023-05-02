@@ -16,6 +16,25 @@ public class Game extends World {
     //this.time = 0;
   }
 
+  private WorldImage showCount() {
+    int scissor_count = 0;
+    int rock_count = 0;
+    int paper_count = 0;
+
+    for(GameObject obj: this.objects) {
+      if(obj.getType() == GameObject.ObjectType.Scissors) {
+        scissor_count ++;
+      } else if (obj.getType() == GameObject.ObjectType.Rock) {
+        rock_count ++;
+      } else {
+        paper_count ++;
+      }
+    }
+
+    String text = "Rock: " + rock_count + "\n Scissor: " + scissor_count + "\n Paper: " + paper_count;
+    return new TextImage(text, 25, Color.BLACK);
+  }
+
   private void generateObjects(int num) {
     GameObject[] objects = new GameObject[num];
     int eachType = num / 3;
@@ -75,12 +94,12 @@ public class Game extends World {
   @Override
   public WorldScene makeScene() {
     WorldScene scene = new WorldScene(GameConstants.GAME_SIZE, GameConstants.GAME_SIZE);
+    scene.placeImageXY(this.showCount(), GameConstants.GAME_SIZE / 2, GameConstants.GAME_SIZE - 40);
     for(GameObject obj: this.objects) {
       scene.placeImageXY(obj.draw(), obj.getX(), obj.getY());
     }
     return scene;
   }
-  //🪨📄✂️
 
   @Override
   public void onTick() {
